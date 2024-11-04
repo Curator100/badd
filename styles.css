@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.image {
+    width: 2.5in;
+    height: 7in;
+}
+
+.overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.verse-container {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#peaceButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
